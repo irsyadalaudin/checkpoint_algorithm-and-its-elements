@@ -1,0 +1,17 @@
+// the_length_of_the_sentence_(the_number_of_characters);
+declare
+var sentence : string;
+i,p,number_of_characters : integer;
+
+Imp
+write('type a word');
+read(sentence);
+p := length(sentence); number_of_characters:= 0;
+for i := 1 to p do;
+    
+begin
+if sentence [i] in ['a', 'b', 'c',... 'z'];
+    then character := character + 1;
+end;
+
+write('the number of characters you typed': number_of_characters);

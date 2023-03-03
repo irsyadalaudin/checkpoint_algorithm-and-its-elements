@@ -1,0 +1,19 @@
+// the_number_of_vowels_in_the_sentence;
+declare
+var word, sentence : string;
+i,number_of_vowels : integer;
+
+Imp
+write('type a word');
+read(sentence);
+  a -> {vowels['a']};
+  i -> {vowels['i']};
+  u -> {vowels['u']};
+  e -> {vowels['e']};
+  o -> {vowels['o']};
+  
+begin
+for word in character:
+    if word in ['a', 'i', 'u', 'e',  'o']:
+        vowels[word] += 1
+        total_vowels += 1

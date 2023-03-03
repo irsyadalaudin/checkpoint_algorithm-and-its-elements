@@ -1,0 +1,28 @@
+// the_number_of_words_in_the_sentence_(assuming_that_the_words_are_separated_by_a_single_space);
+declare
+var sentence : string;
+i,space : integer;
+
+Imp
+write('type a word');
+read(sentence);
+for(i = 0; sentence[i]; i++) {
+        if(isspace (sentence[i]) || ispunct (sentence[i]))
+    {
+        space++;
+    }
+}
+
+begin
+count << "word count = " << space +1 << "\n\n";
+count << "the word of sentence you typed :   \n";
+count << "\n";
+for(i = 0; sentence[i]; i++)
+{ if(isspace (sentence[i]) || ispunct (sentence[i]))
+    { 
+    space++;
+    Write sentence[i];
+    }
+    cout << sentence[i];
+}
+count << "\n";
